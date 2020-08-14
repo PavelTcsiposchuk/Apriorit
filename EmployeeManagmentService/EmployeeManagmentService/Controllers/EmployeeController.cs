@@ -28,7 +28,7 @@ namespace EmployeeManagmentService.Controllers
             try
             {
                 //var employees = _employeeRepository.Get(20, 0).Include(ep => ep.EmployeePositions).Where(c => c.EmployeePositions.Any(p => p.DateOfDissmisal == null)).ToList();
-
+                вытащить в сервис точно, с сервиса придет дтошка(так везде, контроле не контачит с моделью и не имеет референсов на базу вообще, аналогично с другим контролером, где надо проверки в бизнес логике, и там тоже дто вся фигня)
                 var employees1 = _employeeRepository.Get(20, 0).Select(e => new EmployeeDto
                 {
                     Name = e.Name,
@@ -55,6 +55,7 @@ namespace EmployeeManagmentService.Controllers
             try
             {
                 var employee = _employeeRepository.Get(id);
+                вытащить в сервис
                 if (employee == null)
                 {
                     return NotFound();
@@ -77,6 +78,7 @@ namespace EmployeeManagmentService.Controllers
             try
             {
                 _employeeRepository.Add(employee);
+                вытащить это в сервис, добавить проверки на правильность данных (зарплата больше нуля блабалабал)
                 return CreatedAtAction(nameof(Get), new { id = employee.Id }, employee);
                 
             }
