@@ -34,7 +34,7 @@ namespace EmployeeManagmentService.Controllers
                     Name = e.Name,
                     Surname = e.Surname,
                     Salary = e.Salary,
-                    //PositionName = _employeeRepository.GetLastPosition(e.Id).Position.PositionName,
+                    //PositionName = _employeeRepository.GetLastPosition(e.Id).PositionName,
                     //DateOfDissmisal = _employeeRepository.GetLastPosition(e.Id).DateOfDissmisal,
                     //HireDate = _employeeRepository.GetLastPosition(e.Id).HireDate
 

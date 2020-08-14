@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ek3uRsfALMhm/l8rMLXXWoCMkwDKSSB1BbvVbkmgZ/6dFcl0kWeSWk4EdgUFyyqMy3jdrQdMFG2f3eOokUie8w==",
+  "dgSpecHash": "9aiNKe3P9FL3zCZUb/bfPRITYY6dk3Bkbv7HbsnCQFVPvHSoNYGs2tDd1uP0LdtXfem5FWvl0nalEnH220zQdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\genne\\Desktop\\EmployeeManagmentService\\EmployeeManagmentService\\EmployeeManagmentService.csproj",
+  "projectFilePath": "C:\\Users\\genne\\Desktop\\Apriorit\\EmployeeManagmentService\\EmployeeManagmentService\\EmployeeManagmentService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\genne\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\genne\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

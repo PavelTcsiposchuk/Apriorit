@@ -16,18 +16,13 @@ namespace EmployeeManagmentService.Data.Repositories.Implementation
         {
 
         }
-        public EmployeePositions GetCurrentPosition(int id)
+        public EmployeePositions GetLastPosition(int id)
         {
             return _context.Set<Employee>()
                 .Include(e => e.EmployeePositions.FirstOrDefault(p => p.DateOfDissmisal == null))
                 .ThenInclude(e=>e.Position).FirstOrDefault(e=> e.Id == id).EmployeePositions.FirstOrDefault();
         }
-
-        public EmployeePositions GetLastPosition(int id)
-        {
-            return _context.Set<Employee>().Include(e => e.EmployeePositions).ThenInclude(p => p.Position).FirstOrDefault(e => e.Id == id).EmployeePositions.LastOrDefault(p => p.DateOfDissmisal == null);
-        }
-
+    
 
     }
 }

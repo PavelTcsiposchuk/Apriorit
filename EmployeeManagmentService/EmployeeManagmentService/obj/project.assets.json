@@ -5005,11 +5005,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\genne\\Desktop\\EmployeeManagmentService\\EmployeeManagmentService\\EmployeeManagmentService.csproj",
+      "projectUniqueName": "C:\\Users\\genne\\Desktop\\Apriorit\\EmployeeManagmentService\\EmployeeManagmentService\\EmployeeManagmentService.csproj",
       "projectName": "EmployeeManagmentService",
-      "projectPath": "C:\\Users\\genne\\Desktop\\EmployeeManagmentService\\EmployeeManagmentService\\EmployeeManagmentService.csproj",
+      "projectPath": "C:\\Users\\genne\\Desktop\\Apriorit\\EmployeeManagmentService\\EmployeeManagmentService\\EmployeeManagmentService.csproj",
       "packagesPath": "C:\\Users\\genne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\genne\\Desktop\\EmployeeManagmentService\\EmployeeManagmentService\\obj\\",
+      "outputPath": "C:\\Users\\genne\\Desktop\\Apriorit\\EmployeeManagmentService\\EmployeeManagmentService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\genne\\AppData\\Roaming\\NuGet\\NuGet.Config",
